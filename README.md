@@ -45,9 +45,9 @@ The `bmiCalc` method calculates the BMI of the person using the formula: `weight
 The `bmiClass` method categorizes the person's BMI based on the following ranges:
 
 - Underweight: BMI < 18.5
-- Normal Weight: 18.5 <= BMI < 25
-- Overweight: 25 <= BMI < 30
-- Obese: 30 <= BMI < 40
+- Normal Weight: 18.5 >= BMI < 25
+- Overweight: 25 >= BMI < 30
+- Obese: 30 >= BMI < 40
 - Severely Obese: BMI >= 40
 
 The method returns a string that includes the person's name, weight, BMI, and the category they fall into.
